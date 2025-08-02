@@ -1,4 +1,4 @@
-package com.cubo1123.cryptoportfolio.ui.theme
+package com.cubo1123.cryptoportfolio.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build

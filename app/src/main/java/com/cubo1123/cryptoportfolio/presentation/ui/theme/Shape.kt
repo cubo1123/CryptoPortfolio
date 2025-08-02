@@ -1,4 +1,4 @@
-package com.cubo1123.cryptoportfolio.ui.theme
+package com.cubo1123.cryptoportfolio.presentation.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Shapes

@@ -1,4 +1,4 @@
-package com.cubo1123.cryptoportfolio.ui.theme
+package com.cubo1123.cryptoportfolio.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
