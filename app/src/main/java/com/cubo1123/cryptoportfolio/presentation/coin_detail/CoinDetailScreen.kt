@@ -47,7 +47,7 @@ fun CoinDetailScreen(viewModel: CoinDetailViewModel = hiltViewModel()){
                         horizontalArrangement = Arrangement.SpaceBetween){
                         Text(
                             text = "${coin.rank}. ${coin.name} (${coin.symbol})",
-                            style = MaterialTheme.typography.h2,
+                            style = MaterialTheme.typography.h4,
                             modifier = Modifier.weight(8f)
                         )
                         Text(
@@ -84,11 +84,13 @@ fun CoinDetailScreen(viewModel: CoinDetailViewModel = hiltViewModel()){
                     }
 
                     Spacer(modifier = Modifier.height(15.dp))
+                    if(coin.team.isNotEmpty()){
+                        Text(
+                            text="Team Members",
+                            style = MaterialTheme.typography.h3
+                        )
+                    }
 
-                    Text(
-                        text="Team Members",
-                        style = MaterialTheme.typography.h3
-                    )
 
                     Spacer(modifier = Modifier.height(15.dp))
                 }
